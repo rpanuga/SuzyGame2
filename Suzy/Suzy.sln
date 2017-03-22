@@ -1,9 +1,9 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzy", "Assembly-CSharp.csproj", "{76B7BA7C-2787-9FFF-B99C-004FD1ABC4A2}"
+# Visual Studio 2008
+
+Project("{F80B2B12-2F70-A626-5E4F-908B8F27159A}") = "Suzy", "Assembly-CSharp.csproj", "{76B7BA7C-2787-9FFF-B99C-004FD1ABC4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suzy", "Assembly-CSharp-Editor.csproj", "{1A5E15F0-7386-3429-151D-7700F1E83190}"
+Project("{F80B2B12-2F70-A626-5E4F-908B8F27159A}") = "Suzy", "Assembly-CSharp-Editor.csproj", "{1A5E15F0-7386-3429-151D-7700F1E83190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
