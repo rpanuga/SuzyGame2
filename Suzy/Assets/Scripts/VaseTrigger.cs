@@ -6,6 +6,9 @@ public class VaseTrigger : MonoBehaviour {
 
 	public GameObject vase;
 	public float speed;
+	// Candle Flame setup
+	public GameObject candleFlame;
+	public GameObject candleLight;
 
 	// Update is called once per frame
 	void Start () {
@@ -18,9 +21,15 @@ public class VaseTrigger : MonoBehaviour {
 		if (other.tag == "Player") {
 			vase.gameObject.SetActive (true);
 
+			// Candle Light/Flame color change
+			candleFlame.GetComponent<ParticleSystem>().startColor = new Color(1, 0, 1, .5f);
+			candleLight.GetComponent<Light>().color = new Color(1, 0, 1, .5f);
+
 			// TODO: Destroy the vase after xxx seconds OR CHANGE IT INTO BROKEN CLASS
 			Destroy(vase, 4.0f); 
 			Destroy (this.gameObject, 4.0f);
+
+
 
 		}
 	}
