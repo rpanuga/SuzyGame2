@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/testplane.unity
+- path: Assets/Scenes/RoTesting.unity
   isLoaded: 1
   isActive: 1
