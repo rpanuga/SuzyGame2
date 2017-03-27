@@ -108,3 +108,5 @@ C:\Users\RoPanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\UnityEditor.VR.xm
 C:\Users\RoPanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\RoPanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\RoPanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\ropanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
+C:\Users\ropanu\Documents\GitHub\SuzyGame2\Suzy\Temp\bin\Debug\UnityEditor.OSXStandalone.Extensions.dll

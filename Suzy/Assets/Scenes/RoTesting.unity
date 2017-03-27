@@ -1214,6 +1214,7 @@ GameObject:
   - component: {fileID: 676912026}
   - component: {fileID: 676912025}
   - component: {fileID: 676912024}
+  - component: {fileID: 676912028}
   m_Layer: 0
   m_Name: DoorPassword
   m_TagString: Untagged
@@ -1284,6 +1285,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676912028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676912023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f54443b8f033046b7d5a4988f3c144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 896219089}
+  Player: {fileID: 884339906}
+  password: 4231
+  passwordToEdit: 
+  interactionDistance: 5
+  InteractionText: {fileID: 1864591629}
+  description: Door Keypad
 --- !u!1 &707141969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3790,7 +3809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.9, y: 93.38}
+  m_AnchoredPosition: {x: 22.9, y: 268.28}
   m_SizeDelta: {x: 226.4, y: 65.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1877412391

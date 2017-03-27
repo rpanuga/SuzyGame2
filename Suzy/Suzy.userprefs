@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SuzyDialogue.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DoorPasswordScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\SuzyDialogue.cs" Line="33" Column="4" />
+      <File FileName="Assets\Scripts\SuzyDialogue.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DoorPasswordScript.cs" Line="42" Column="6" />
+      <File FileName="Assets\Scripts\Interact\TeddyBearScript.cs" Line="46" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
