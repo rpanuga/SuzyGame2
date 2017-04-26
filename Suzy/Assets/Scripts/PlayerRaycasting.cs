@@ -8,20 +8,19 @@ public class PlayerRaycasting : MonoBehaviour {
 
 	public RaycastHit whatIHit;
 
-	private bool didIHit;
+	bool didIHit;
 
 	void Start () {
 		didIHit = false;
 	}
-		
+
 
 	// Update is called once per frame
 	void Update () {
 		Vector3 forward = transform.TransformDirection (Vector3.forward) * distanceToSee;
-
-		//Debug.DrawRay (this.transform.position, (this.transform.forward * distanceToSee), Color.red);
 		Debug.DrawRay(transform.position,forward, Color.green);
 
+		didIHit = Physics.Raycast(transform.position, forward, out whatIHit);
 		//DEBUGGING TOOL
 		if (Physics.Raycast(transform.position, forward, out whatIHit)) {
 			//Debug.Log("I touched " + whatIHit.collider.gameObject.name + " from " + whatIHit.distance);

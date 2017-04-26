@@ -79,8 +79,9 @@
     <Compile Include="Assets\MagicMirror\Prefab\MirrorReflectionScript.cs" />
     <Compile Include="Assets\MagicMirror\Prefab\MirrorScript.cs" />
     <Compile Include="Assets\Prefabs\OldRadio\RadioTrigger.cs" />
-    <Compile Include="Assets\Scripts\AI\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\AI\FSMSystem.cs" />
     <Compile Include="Assets\Scripts\AI\StrangerMove.cs" />
+    <Compile Include="Assets\Scripts\AI\SuzyController.cs" />
     <Compile Include="Assets\Scripts\Flashlight.cs" />
     <Compile Include="Assets\Scripts\Interact\TeddyBearScript.cs" />
     <Compile Include="Assets\Scripts\Interact\WindowStranger.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\Scripts\MirrorScareTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerRaycasting.cs" />
     <Compile Include="Assets\Scripts\SoundController.cs" />
+    <Compile Include="Assets\Scripts\SuzyDialogue.cs" />
     <Compile Include="Assets\Scripts\VaseShatter.cs" />
     <Compile Include="Assets\Scripts\VaseTrigger.cs" />
     <Compile Include="Assets\StandardImportedAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
