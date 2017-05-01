@@ -13,7 +13,7 @@ public class StrangerMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 	public void StartMoving() {
 		this.GetComponent<NavMeshAgent>().destination = goal.position;
